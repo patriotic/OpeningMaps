@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
         Intent notifyIntent = new Intent(this, MapsActivity.class);
         notifyIntent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        notifyIntent.putExtra("Lattitude", 24.921838);
-        notifyIntent.putExtra("Langitude", 91.830615);
+        notifyIntent.putExtra("Lattitude", 24.9218397);
+        notifyIntent.putExtra("Langitude", 91.8303319);
         PendingIntent notifyPendingIntent =
                 PendingIntent.getActivity(
                         this,
